@@ -7,7 +7,7 @@ services:
       - "6880:80"
       - "6800:6800"
     volumes:
-      - /data:/doanload
+      - /data:/aria2/downloads
       - ./aria2.conf:/config/aria2.conf
     restart: always 
 
