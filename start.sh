@@ -1,0 +1,1 @@
+nginx && aria2c -c --conf-path=/config/aria2.conf
