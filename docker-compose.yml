@@ -1,0 +1,13 @@
+version: "3"
+services:
+  aria2-with-ariang:
+    image: hclasmn/aria2-with-ariang
+    container_name: aria2-with-ariang
+    ports:
+      - "6880:80"
+      - "6800:6800"
+    volumes:
+      - /data:/doanload
+      - ./aria2.conf:/config/aria2.conf
+    restart: always 
+
